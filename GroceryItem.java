@@ -30,4 +30,30 @@ class GroceryItem {
       return false;
     }
   }
+  
+  // TEMPLATE
+  /*   Fields:
+   *     this.name        -- String
+   *     this.quantity    -- int
+   *     this.isBought    -- boolean
+   * 
+   *   Methods:
+   *     this.addQuantity(int quantity)    -- void
+   *     this.toString()                   -- String
+   *     this.equals(Object o)             -- boolean
+   *     this.isBoughtTrue()               -- boolean
+   *     this.itemQuantity                 -- int
+   */
+  
+  // -> boolean
+  // Returns true if isBought has been changed to true
+  public boolean isBoughtTrue() {
+    return this.isBought = true;
+  }
+  
+  // -> int
+  // Returns the quantity of a this item
+  public int itemQuantity() {
+    return this.quantity;
+  }
 }
